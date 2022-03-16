@@ -1,0 +1,14 @@
+{
+"num_boost_round": 100,
+"early_stop_round": 10,
+"verbose_eval": 10,
+"model_params": 
+    {"subsample": 0.9, 
+     "eta": 0.01, 
+     "colsample_bytree": 0.8, 
+     "eval_metric": "error", 
+     "objective": "binary:logistic",
+     "learning_rate": 0.066, 
+     "max_depth": 9, 
+     "min_child_weight": 6}
+}

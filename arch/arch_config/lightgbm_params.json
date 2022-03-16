@@ -1,0 +1,19 @@
+{
+"num_boost_round": 100,
+"early_stop_round": 10,
+"verbose_eval": 10,
+"model_params":
+    {"num_leaves": 30, 
+     "bagging_seed": 30, 
+     "learning_rate": 0.005, 
+     "min_child_sample": 10,
+     "boosting": "gbdt", 
+     "bagging_fraction": 0.9, 
+     "metric": "binary_error", 
+     "bagging_freq": 1, 
+     "verbosity": -1, 
+     "objective": "cross_entropy", 
+     "max_depth": -1,
+     "lambda_l2": 0.1
+     }
+}
